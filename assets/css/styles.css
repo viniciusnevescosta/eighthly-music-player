@@ -12,6 +12,7 @@
     --font-regular: 1rem;
 
     --color-purple: #5603ad;
+    --color-purplelite: #D8C9FF;
     --color-black: #3C403C;
     --color-greenlite: #E3FFF5;
     --color-greenlite2: #FCFFFE;
@@ -51,11 +52,12 @@
 }
 
 .album {
-    flex: 1 1 auto;
-    max-width: 20rem;
+    flex: 1 1 1vw;
+    max-width: 15rem;
+    min-width: 15rem;
     display: flex;
     flex-flow: row wrap;
-    background-image: url(/assets/imgs/album.jpg);
+    background-image: url(/assets/imgs/album.avif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -98,6 +100,12 @@
     min-height: var(--layout-medium);
     max-height: var(--layout-medium);
     display: flex;
+    background-color: var(--color-greenlite);
+    overflow: hidden;
+}
+.musica:hover {
+    background-color: #D6FFDA;
+    cursor: pointer;
 }
 
 .musicItens {
@@ -105,13 +113,6 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-}
-
-.item1b .musica:nth-child(1) {
-	background-color: #E3FFF5;
-}
-.item1b .musica:nth-child(3) {
-	background-color: #E3FFF5;
 }
 
 /* layout-footer */
@@ -130,7 +131,7 @@
     max-width: 6rem;
     max-height: 100%;
 
-    background-image: url(/assets/imgs/justice.jpg);
+    background-image: url(/assets/imgs/dojacat.avif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -168,6 +169,7 @@
 body {
     display: flex;
     flex-flow: column wrap;
+    background: var(--color-greenlite2);
 }
 
 aside {
@@ -192,7 +194,7 @@ footer {
     display: flex;
     flex-flow: row wrap;
     padding: var(--layout-lite);
-    background-color: var(--color-greenlite);
+    background-color: var(--color-purplelite);
 
     bottom: 0;
     width: 100%;
@@ -222,7 +224,7 @@ h1 {
         --layout-lite: 1rem;
 
         --font-big: 1rem;
-        --font-regular: 0.7rem;
+        --font-regular: 0.75rem;
     }
     
     /* Layout */
@@ -249,7 +251,7 @@ h1 {
     .top, .bottom {
         flex-flow: row wrap;
         justify-content: center;
-        gap: var(--layout-regular);
+        gap: var(--layout-lite);
     }
 
     .top {
@@ -286,7 +288,7 @@ h1 {
     }
 
     p {
-        font-weight: bold;
+        font-weight: 600;
     }
 }
 
@@ -299,7 +301,7 @@ h1 {
         --layout-lite: 1rem;
 
         --font-big: 1rem;
-        --font-regular: 0.7rem;
+        --font-regular: 0.75rem;
     }
     
     /* Layout */
@@ -326,7 +328,7 @@ h1 {
     .top, .bottom {
         flex-flow: row wrap;
         justify-content: center;
-        gap: var(--layout-regular);
+        gap: var(--layout-lite);
     }
 
     .top {
@@ -402,7 +404,7 @@ h1 {
     .top, .bottom {
         flex-flow: row wrap;
         justify-content: center;
-        gap: var(--layout-regular);
+        gap: var(--layout-lite);
     }
 
     .top {
