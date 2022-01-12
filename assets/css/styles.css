@@ -122,15 +122,19 @@
     flex-flow: row wrap;
 }
 
+.play {
+    align-items: center;
+}
+
 .albumPlay, .infoPlay {
     display: flex;
 }
 
 .albumPlay {
-    flex: 1 1 0.1rem;
-    max-width: 6rem;
-    max-height: 100%;
-
+    flex: 1 1 auto;
+    max-width: 5rem;
+    max-height: 5rem;
+    min-height: 5rem;
     background-image: url(/assets/imgs/dojacat.avif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,7 +146,6 @@
     justify-content: center;
     padding-left: var(--layout-regular);
 }
-
 .infoPlay p:nth-child(1) {
     margin-bottom: var(--layout-lite);
 }
@@ -153,7 +156,6 @@
     justify-content: end;
     gap: 5rem;
 }
-
 .buttons p:nth-child(3) {
     margin-right: 5rem;
 }
