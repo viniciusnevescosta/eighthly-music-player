@@ -49,6 +49,7 @@
     min-height: var(--layout-big);
     padding: var(--layout-lite);
     flex-flow: column wrap;
+    margin-bottom: 15vh;
 }
 
 .album {
