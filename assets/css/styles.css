@@ -218,6 +218,14 @@ h1 {
     font-size: var(--font-big);
 }
 
+i:hover {
+    cursor: pointer;
+}
+
+audio {
+    display: none;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
     /* Variables */
     :root {
