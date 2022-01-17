@@ -193,7 +193,8 @@ main {
 }
 
 footer {
-    display: flex;
+    display: none;
+    /* display: flex; */
     flex-flow: row wrap;
     padding: var(--layout-lite);
     background-color: var(--color-purplelite);
@@ -202,6 +203,9 @@ footer {
     width: 100%;
     height: 15vh;
     position: fixed;
+
+    animation: fadeIn;
+    animation-duration: 0.2s;
 }
 
 h1, p {
@@ -231,9 +235,9 @@ i:hover {
     cursor: pointer;
 }
 
-audio {
+/* audio {
     display: none;
-}
+} */
 
 @media (min-width: 320px) and (max-width: 480px) {
     /* Variables */
