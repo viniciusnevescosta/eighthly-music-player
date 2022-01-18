@@ -80,7 +80,6 @@ const criarMusica = function(id, nome, artista, duracao, som, capa){
 
     // essenciais
     const footer = document.querySelector('footer');
-    const play = document.querySelector('#btnPlay');
     const mscPlay = document.querySelector('#nomeTocando');
     const artPlay = document.querySelector('#artistaTocando');
     const albumPlay = document.querySelector('.albumPlay');
@@ -96,10 +95,9 @@ const criarMusica = function(id, nome, artista, duracao, som, capa){
     // função trocar musica
     const switchMusic = function(lugar) {
         const qntMsc = document.querySelectorAll('audio').length;
-        const anterior = document.querySelectorAll('audio')[0];        
+        const anterior = document.querySelectorAll('audio')[0];       
         if(qntMsc === 0) {
             footer.style.display = 'flex';
-            play.innerText = 'pause'
             mscPlay.innerText = nome;
             artPlay.innerText = artista;
             albumPlay.style.backgroundImage = capa;
@@ -109,7 +107,6 @@ const criarMusica = function(id, nome, artista, duracao, som, capa){
             audio.play();
         } else if(qntMsc === 1) {
             lugar.removeChild(anterior);
-            play.innerText = 'pause'
             mscPlay.innerText = nome;
             artPlay.innerText = artista;
             albumPlay.style.backgroundImage = capa;
@@ -117,28 +114,12 @@ const criarMusica = function(id, nome, artista, duracao, som, capa){
             src.setAttribute('src', som);
             audio.currentTime = 0;
             audio.play();
-        } else if (qntMsc === 1 && play.innerText === 'pause') {
-            play.innerText = 'play_arrow';
         };
     };
 
     // evento trocar musica
     div.addEventListener('click', function() {
         switchMusic(footer);
-    });
-
-    // evento pausar
-    play.addEventListener('click', function() {
-        let isPlaying = audio.currentTime > 0 && !audio.paused && !audio.ended 
-        && audio.readyState > 2;
-    
-        if (!isPlaying && play.innerText === 'pause') {
-            src.setAttribute('src', som);
-            audio.play();
-        } else {
-            src.setAttribute('src', som);
-            audio.pause();
-        }
     });
 };
 
@@ -148,6 +129,31 @@ criarMusica(musicas[1].id, musicas[1].nome, musicas[1].artista, musicas[1].durac
 criarMusica(musicas[2].id, musicas[2].nome, musicas[2].artista, musicas[2].duracao, musicas[2].som, musicas[2].capa);
 criarMusica(musicas[3].id, musicas[3].nome, musicas[3].artista, musicas[3].duracao, musicas[3].som, musicas[3].capa);
 criarMusica(musicas[4].id, musicas[4].nome, musicas[4].artista, musicas[4].duracao, musicas[4].som, musicas[4].capa);
+
+// evento play/pause
+const play = document.querySelector('#btnPlay');
+
+play.onclick = function() {
+    const audio = document.querySelector('audio');
+    if(play.innerText === 'pause') {
+        play.innerText = 'play_arrow';
+        audio.pause();
+    } else {
+        play.innerText = 'pause';
+        audio.play();
+    }
+};
+
+document.body.onkeyup = function(e){
+    const audio = document.querySelector('audio');
+    if(e.keyCode == 32 && play.innerText === 'pause'){
+        play.innerText = 'play_arrow';
+        audio.pause();
+    } else {
+        play.innerText = 'pause';
+        audio.play();
+    }
+}
 
 // Mostra data atual e quantidade de músicas
 const dataQuantidade = function(){
