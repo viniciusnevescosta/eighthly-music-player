@@ -235,9 +235,9 @@ i:hover {
     cursor: pointer;
 }
 
-/* audio {
+audio {
     display: none;
-} */
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
     /* Variables */
