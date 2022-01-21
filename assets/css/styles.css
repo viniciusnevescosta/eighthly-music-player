@@ -11,12 +11,38 @@
     --font-big: 1.5rem;
     --font-regular: 1rem;
 
-    --color-purple: #5603ad;
-    --color-purplelite: #D8C9FF;
-    --color-black: #3C403C;
-    --color-greenlite: #E3FFF5;
-    --color-greenlite2: #FCFFFE;
+    --musica: #55ABE0;
+    --hover: #4C98C7;
+    --info: #5863F8;
+    --body: #171D1C;
+    --footer: #16BAC5;
+    --text: #EFE9F4;
+    --hover-text: #CEC8DE;
+    --active-text: #E2E1FA;
 }
+
+
+::selection {
+    color: #B5D8FD;
+    background: #4048B8;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: var(--layout-lite);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: var(--text);
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--hover-text);
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: var(--active-text);
+}
+
 
 /* Layout */
 .item1 {
@@ -34,15 +60,8 @@
 .item1a {
     min-height: var(--layout-big);
     padding: var(--layout-regular);
-    background-color: var(--color-purple);
+    background-color: var(--info);
     flex-flow: row wrap;
-}
-
-.item1a h1 {
-    color: white;
-}
-.item1a p {
-    color: white;
 }
 
 .item1b {
@@ -101,11 +120,11 @@
     min-height: var(--layout-medium);
     max-height: var(--layout-medium);
     display: flex;
-    background-color: var(--color-greenlite);
+    background-color: var(--musica);
     overflow: hidden;
 }
 .musica:hover {
-    background-color: #D6FFDA;
+    background-color: var(--hover);
     cursor: pointer;
 }
 
@@ -171,7 +190,7 @@
 body {
     display: flex;
     flex-flow: column wrap;
-    background: var(--color-greenlite2);
+    background: var(--body);
 }
 
 aside {
@@ -182,9 +201,8 @@ aside {
 
     position: fixed;
     width: 3vw;
-    height: 85vh;
-
-    background-color: var(--color-greenlite2);
+    height: 100%;
+    padding-bottom: 15vh;
 }
 
 main {
@@ -197,7 +215,7 @@ footer {
     /* display: flex; */
     flex-flow: row wrap;
     padding: var(--layout-lite);
-    background-color: var(--color-purplelite);
+    background-color: var(--footer);
 
     bottom: 0;
     width: 100%;
@@ -208,9 +226,16 @@ footer {
     animation-duration: 0.2s;
 }
 
-h1, p {
+h1, p, a {
     font-family: 'Epilogue', sans-serif;
-    color: var(--color-black);
+    color: var(--text);
+}
+
+a:hover {
+    color: var(--hover-text);
+}
+a:active {
+    color: var(--active-text);
 }
 
 p {
@@ -233,6 +258,10 @@ i {
 
 i:hover {
     cursor: pointer;
+    color: var(--hover-text);
+}
+i:active{
+    color: var(--active-text);
 }
 
 audio {
