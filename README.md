@@ -22,7 +22,7 @@
   <p align="center">
     Free of any kind of royalties, you can listen to music whenever you want.
     <br />
-    <a href="https://music-app-layout.vercel.app/">Deploy</a>
+    <a href="https://eighthly.vercel.app/">Deploy</a>
     ·
     <a href="https://github.com/Jolonte/EighthLy/issues">Report Bug</a>
     ·

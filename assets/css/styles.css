@@ -228,6 +228,7 @@ footer {
 
 h1, p, a {
     font-family: 'Epilogue', sans-serif;
+    font-display: swap;
     color: var(--text);
 }
 
