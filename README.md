@@ -3,12 +3,12 @@
 <div id="top"></div>
 
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][https://github.com/Jolonte/EighthLy/graphs/contributors]
+<!-- [![Contributors][contributors-shield]][https://github.com/Jolonte/EighthLy/graphs/contributors]
 [![Forks][forks-shield]][https://github.com/Jolonte/EighthLy/network/members]
 [![Stargazers][stars-shield]][https://github.com/Jolonte/EighthLy/stargazers]
 [![Issues][issues-shield]][https://github.com/Jolonte/EighthLy/issues]
 [![MIT License][license-shield]][LICENSE]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/nevesco/]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/nevesco/] -->
 
 <!-- PROJECT LOGO -->
 <br />
@@ -22,7 +22,7 @@
   <p align="center">
     Free of any kind of royalties, you can listen to music whenever you want.
     <br />
-    <a href="">Deploy</a>
+    <a href="https://music-app-layout.vercel.app/">Deploy</a>
     ·
     <a href="https://github.com/Jolonte/EighthLy/issues">Report Bug</a>
     ·
@@ -46,7 +46,7 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#assignments">Assignments</a></li>
   </ol>
 </details>
 
@@ -55,11 +55,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img width="800" height="480" src="assets/to_readme/eighthly_git.GIF"
+<img width="800" height="480" src="assets\to_readme\eighthly_git.GIF"
 
 As a good music listener, I know many great music players available, however, few free of any kind of advertisements and streaming subscription to unleash the full power of the player. That's why I decided to create my own player.
 
-Benefits::
+Benefits:
 * Always listen with maximum quality.
 * Be free to skip as many songs as you like at any time!
 * Free of advertisements. :smile:
@@ -141,15 +141,15 @@ Project Link: [https://github.com/Jolonte/EighthLy](https://github.com/Jolonte/E
 <!-- ACKNOWLEDGMENTS -->
 ## Assignments
 
-* [Favicon](https://www.flaticon.com/br/icone-gratis/nota-musical_727218?term=google%20play%20music&page=1&position=37&page=1&position=37&related_id=727218&origin=tag)
-* [Color palette](https://coolors.co/16bac5-5fbff9-efe9f4-171d1c-5863f8)
+* [Favicon](https://www.flaticon.com/br/icone-gratis/nota-musical_727218?term=google%20play%20music&page=1&position=37&page=1&position=37&related_id=727218&origin=tag) by [FlatIcon](https://www.flaticon.com/)
+* [Color palette](https://coolors.co/16bac5-5fbff9-efe9f4-171d1c-5863f8) by [Coolors.co](https://coolors.co/)
 
 * [Playlist photo](https://unsplash.com/photos/50HS3AzJsvQ) by [Neven Krcmarek](https://unsplash.com/@nevenkrcmarek) on Unsplash
 * 1st Song: [It Will Come Back](https://www.youtube.com/watch?v=nJi6FgGKTGc) by [The Stolen Orchestra](https://www.youtube.com/channel/UCa3UQAJkky2ZXVB2JRW9lcw) on Youtube
 * 2nd Song: [Whale](https://www.youtube.com/watch?v=UtbReDCdzQw) by [George & Jonathan](https://www.youtube.com/channel/UC-zfW80uv5a3lrH2JiFvGwA) on Youtube
 * 3rd Song: [Nightingale](https://www.youtube.com/watch?v=UtbReDCdzQw) by [Mr. Songs & Tracks](https://www.youtube.com/channel/UCwgLGxCm7NGP3ECNkKnFgJA/videos) on Youtube
 * 4th Song: [Heart Calligraphy](https://www.youtube.com/watch?v=JhwCP49vu9s) by [Cody Martin](https://www.youtube.com/channel/UCaKBEybQjRBmQbT8qLgMHmQ) on Youtube
-* 5th Song: [Wonderland](https://www.youtube.com/watch?v=TL_2Qc27li4) by [Shimmer](https://www.youtube.com/channel/UCVmYmjbWauqzNf3tqL6QeRA)
+* 5th Song: [Wonderland](https://www.youtube.com/watch?v=TL_2Qc27li4) by [Shimmer](https://www.youtube.com/channel/UCVmYmjbWauqzNf3tqL6QeRA) on Youtube
 * 6th Song: [Falling Through the Hourglass](https://www.youtube.com/watch?v=i4yRbeiu6M0) by [Sid Acharya](https://www.youtube.com/channel/UCzCJS-SPsHqUHO9oYzh5iTw) on Youtube
 * 7th Song: [Another Time, Another Place](https://www.youtube.com/watch?v=9wdYIokXHaU) by [Sounds Like Sander](https://www.youtube.com/channel/UCOOmq7TUfXuFf8SKPcj07Ag) on Youtube
 * 8th Song: [Summit](https://www.youtube.com/watch?v=7kKyDTa9uTI) by [Gray North](https://www.youtube.com/channel/UCEw876R7zDm1zwcZJb1fezw) on Youtube
