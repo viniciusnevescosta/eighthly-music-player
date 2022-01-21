@@ -3,12 +3,12 @@
 <div id="top"></div>
 
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][https://github.com/Jolonte/EighthLy/graphs/contributors]
+<!-- [![Contributors][contributors-shield]][https://github.com/Jolonte/EighthLy/graphs/contributors]
 [![Forks][forks-shield]][https://github.com/Jolonte/EighthLy/network/members]
 [![Stargazers][stars-shield]][https://github.com/Jolonte/EighthLy/stargazers]
 [![Issues][issues-shield]][https://github.com/Jolonte/EighthLy/issues]
 [![MIT License][license-shield]][LICENSE]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/nevesco/]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/nevesco/] -->
 
 <!-- PROJECT LOGO -->
 <br />
@@ -55,7 +55,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img width="800" height="480" src="assets/to_readme/eighthly_git.GIF"
+<p align="center">
+  <img width="800" height="480" src="assets/to_readme/eighthly_git.GIF"
+</p>
 
 As a good music listener, I know many great music players available, however, few free of any kind of advertisements and streaming subscription to unleash the full power of the player. That's why I decided to create my own player.
 
