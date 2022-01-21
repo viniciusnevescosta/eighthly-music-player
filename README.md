@@ -90,7 +90,9 @@ The project is currently in a demo version. Feel free to come back and follow th
 ## Roadmap
 
 - [ ] Auto-play
+- [ ] Play all songs
 - [ ] Change volume
+- [ ] More settings
 - [ ] Create an account
 - [ ] Manage playlists - add and remove songs
 - [ ] Mobile app
