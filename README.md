@@ -10,6 +10,10 @@
 [![MIT License][license-shield]][LICENSE]
 [![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/nevesco/] -->
 
+![GitHub language count](https://img.shields.io/github/languages/count/Jolonte/EighthLy)
+![GitHub top language](https://img.shields.io/github/languages/top/jolonte/EighthLy)
+![GitHub license](https://img.shields.io/github/license/jolonte/EighthLy)
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -95,7 +99,7 @@ The project is currently in a demo version. Feel free to come back and follow th
 - [ ] More settings
 - [ ] Create an account
 - [ ] Manage playlists - add and remove songs
-- [ ] Mobile app
+- [x] Mobile app
 - [ ] Multi-language Support
     - [x] Portuguese
     - [ ] English
