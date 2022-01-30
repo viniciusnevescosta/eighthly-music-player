@@ -151,6 +151,7 @@ const criarMusica = function(id, nome, artista, duracao, som, capa){
             mscPlay.innerText = nome;
             artPlay.innerText = artista;
             albumPlay.style.backgroundImage = capa;
+            play.innerText = 'pause';
             lugar.appendChild(audio);
             src.setAttribute('src', som);
             audio.currentTime = 0;
@@ -208,11 +209,10 @@ document.body.onkeyup = function(e){
         play.innerText = 'pause';
         audio.play();
     }
-}
+};
 
 // evento previus/skip music
 let num = 0;
-let teste = document.querySelector('h1');
 
 previus.addEventListener('click', () => {
     const anterior = document.querySelectorAll('audio')[0];
