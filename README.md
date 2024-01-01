@@ -1,27 +1,12 @@
-# Eighthly
+# EighthLy - Music Player
 
-<div id="top"></div>
-
-<!-- PROJECT SHIELDS -->
-<!-- [![Contributors][contributors-shield]][https://github.com/Jolonte/EighthLy/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/Jolonte/EighthLy/network/members]
-[![Stargazers][stars-shield]][https://github.com/Jolonte/EighthLy/stargazers]
-[![Issues][issues-shield]][https://github.com/Jolonte/EighthLy/issues]
-[![MIT License][license-shield]][LICENSE]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/nevesco/] -->
-
-![GitHub language count](https://img.shields.io/github/languages/count/Jolonte/EighthLy)
-![GitHub top language](https://img.shields.io/github/languages/top/jolonte/EighthLy)
-![GitHub license](https://img.shields.io/github/license/jolonte/EighthLy)
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/Jolonte/EighthLy">
     <img src="assets\to_readme\logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">EighthLy (Playlist demo)</h3>
+  <h3 align="center">EighthLy (Demo)</h3>
 
   <p align="center">
     Free of any kind of royalties, you can listen to music whenever you want.
@@ -34,9 +19,6 @@
   </p>
 </div>
 
-
-
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -54,9 +36,6 @@
   </ol>
 </details>
 
-
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 <p align="center">
@@ -72,10 +51,6 @@ Benefits:
 
 The project is currently in a demo version. Feel free to come back and follow the news.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 ### Built With
 
 * [HTML5](https://html5.org/)
@@ -85,12 +60,6 @@ The project is currently in a demo version. Feel free to come back and follow th
 * [Animate.css](https://animate.style/)
 * [Kodular](https://www.kodular.io/)
 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
 ## Roadmap
 
 - [ ] Auto-play
@@ -104,11 +73,6 @@ The project is currently in a demo version. Feel free to come back and follow th
     - [x] Portuguese
     - [ ] English
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -122,36 +86,14 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See <a href="LICENSE">LICENSE</a> for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Vinícius Neves Costa - [@oJolont](https://twitter.com/oJolont) - vinicius.nevesco@gmail.com
-
-Project Link: [https://github.com/Jolonte/EighthLy](https://github.com/Jolonte/EighthLy)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
 ## Assignments
 
 * [Favicon](https://www.flaticon.com/br/icone-gratis/nota-musical_727218?term=google%20play%20music&page=1&position=37&page=1&position=37&related_id=727218&origin=tag) by [FlatIcon](https://www.flaticon.com/)
 * [Color palette](https://coolors.co/16bac5-5fbff9-efe9f4-171d1c-5863f8) by [Coolors.co](https://coolors.co/)
-
 * [Playlist photo](https://unsplash.com/photos/50HS3AzJsvQ) by [Neven Krcmarek](https://unsplash.com/@nevenkrcmarek) on Unsplash
 * 1st Song: [It Will Come Back](https://www.youtube.com/watch?v=nJi6FgGKTGc) by [The Stolen Orchestra](https://www.youtube.com/channel/UCa3UQAJkky2ZXVB2JRW9lcw) on Youtube
 * 2nd Song: [Whale](https://www.youtube.com/watch?v=UtbReDCdzQw) by [George & Jonathan](https://www.youtube.com/channel/UC-zfW80uv5a3lrH2JiFvGwA) on Youtube
@@ -163,6 +105,3 @@ Project Link: [https://github.com/Jolonte/EighthLy](https://github.com/Jolonte/E
 * 8th Song: [Summit](https://www.youtube.com/watch?v=7kKyDTa9uTI) by [Gray North](https://www.youtube.com/channel/UCEw876R7zDm1zwcZJb1fezw) on Youtube
 * 9th Song: [Thoughts](https://www.youtube.com/watch?v=QlR-aHHqQmQ) by [Adrián Berenguer](https://www.youtube.com/channel/UCDH--aYQOl8jzSMaW17V94A) on Youtube
 * 10th Song: [Corridors of Time](https://www.youtube.com/watch?v=Pdr5GGzrpCY) by [Malcolm Robinson](https://www.youtube.com/channel/UC5icB83QfmTzxR45f8l0hcg) on Youtube
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
